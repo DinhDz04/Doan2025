@@ -1,0 +1,41 @@
+.lesson-details-container {
+    padding: 40px; /* Không gian rộng rãi */
+    background-color: #F9FAFB;
+    min-height: 100vh;
+  }
+  
+  .lesson-title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #054AB9;
+  }
+  
+  .lesson-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr; /* 2 phần lớn, 1 phần trạng thái nhỏ */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .lesson-content {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .lesson-status {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .upload-area {
+    margin-top: 20px;
+    border: 2px dashed #1890FF;
+    background-color: #F0F8FF;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  

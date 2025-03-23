@@ -1,0 +1,99 @@
+/* Container chính */
+.container {
+    padding: 20px;
+  }
+  
+  /* Tiêu đề chính */
+  .container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Bố cục danh sách thẻ khóa học */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Khoảng cách giữa các thẻ */
+    justify-content: center;
+  }
+  
+  /* Thẻ khóa học */
+  .course-card {
+    width: 300px; /* Kích thước cố định của mỗi thẻ */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    text-align: left;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Hình ảnh */
+  .course-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  /* Nội dung thẻ */
+  .course-content {
+    padding: 15px;
+  }
+  
+  .course-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .course-details {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Phần giá tiền */
+  .course-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  .course-price .old-price {
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .discount {
+    color: #5cb85c;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  
+  /* Nút hành động */
+  .course-actions {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #eee;
+  }
+  
+  .course-actions .btn {
+    width: 48%;
+    margin: 0 1%; /* Khoảng cách giữa các nút */
+    font-size: 14px;
+    padding: 8px;
+    
+  }
+  

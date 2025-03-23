@@ -1,0 +1,27 @@
+.cc{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card-img{
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.col{
+    width: 300px;
+}
+.button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+
+}
+.click{
+    text-decoration: none;
+    color: white;
+}
